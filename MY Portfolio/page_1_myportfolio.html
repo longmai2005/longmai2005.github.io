@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - Long</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Plus+Jakarta+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background-color: #f5ecdf;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        .font-display {
+            font-family: 'DM Serif Display', serif;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="p-6 grid grid-cols-3 items-center">
+        <h1 class="text-2xl font-bold justify-self-start font-display text-black">Long Mai</h1>
+        <nav class="space-x-10 text-lg justify-self-center font-semibold text-black">
+            <a href="page_2_myportfolio.html" class="border-b-2 border-black pb-1">About me</a>
+            <a href="#">Resume</a>
+            <a href="#">Work</a>
+        </nav>
+        <div class="justify-self-end">
+            <a href="#" class="bg-yellow-400 px-4 py-2 rounded-full font-semibold text-black hover:bg-yellow-500">Get in
+                touch!</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <section class="h-[calc(100vh-96px)] flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto px-6">
+        <!-- Text Section -->
+        <div class="max-w-xl space-y-6">
+            <p class="text-5xl md:text-6xl font-display text-black leading-tight">Hello,<br /> I’m Phuoc Long !</p>
+            <p class="text-gray-800 text-lg leading-relaxed">
+                I am a self-taught Graphic Designer based in Viet Nam with extensive marketing and communication
+                experience.
+                I am currently living in VietNam and pursuing a degree in Web and Digital Project Management.
+            </p>
+            <a href="#"
+                class="inline-flex items-center bg-[#ff6d4d] text-white px-6 py-3 rounded-full text-base font-semibold space-x-2 hover:bg-[#ff5533]">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M16 8a6 6 0 01-12 0 6 6 0 0112 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 14c-4 0-8 2-8 6h16c0-4-4-6-8-6z" />
+                </svg>
+                <span>https://www.linkedin.com/in/long-mai-847263369/</span>
+            </a>
+        </div>
+
+        <!-- Image Section -->
+        <div class="relative mt-10 md:mt-0">
+            <div class="w-72 h-72 md:w-80 md:h-80 rounded-full overflow-hidden border-[6px] border-green-900">
+                <img src="your-photo.jpg" alt="Long" class="object-cover w-full h-full" />
+            </div>
+
+            <!-- Label overlays -->
+            <div
+                class="absolute top-6 -left-6 bg-yellow-400 text-black px-4 py-2 rounded-full font-semibold text-sm shadow-md">
+                20<sup>th</sup> May 2005
+            </div>
+            <div
+                class="absolute bottom-6 -right-6 bg-yellow-400 text-black px-4 py-2 rounded-full font-semibold text-sm shadow-md">
+                Vietnamese
+            </div>
+
+            <!-- Contact box -->
+            <div
+                class="absolute bottom-[-80px] left-1/2 transform -translate-x-1/2 bg-black text-white px-6 py-4 rounded-lg text-center shadow-lg w-64">
+                <p class="font-display text-xl mb-1">Contact</p>
+                <p class="text-sm">📍 Da Nang, VietNam</p>
+                <!-- <p class="text-sm">📍 Da Nang, VietNam</p>
+                <p class="text-sm">📍 Da Nang, VietNam</p> -->
+
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

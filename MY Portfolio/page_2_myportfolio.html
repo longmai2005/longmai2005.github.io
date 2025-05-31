@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Long Mai - About Me</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Plus+Jakarta+Sans:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f5f0;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        .font-display {
+            font-family: 'DM Serif Display', serif;
+        }
+
+        .font-elegant {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .resume-title {
+            position: absolute;
+            font-family: 'Playfair Display', serif;
+            font-size: 8rem;
+            font-weight: 700;
+            color: rgba(0, 0, 0, 0.03);
+            z-index: 0;
+            white-space: nowrap;
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Navigation -->
+    <header class="p-6 grid grid-cols-3 items-center">
+        <h1 class="text-2xl font-bold justify-self-start font-display text-black">Long Mai</h1>
+        <nav class="space-x-10 text-lg justify-self-center font-semibold text-black">
+            <a href="#" class="border-b-2 border-black pb-1">About me</a>
+            <a href="#">Project</a>
+            <a href="#">Work</a>
+        </nav>
+        <div class="justify-self-end">
+            <a href="#"
+                class="bg-amber-600 px-4 py-2 rounded-full font-semibold text-white hover:bg-amber-700 transition-colors">Get
+                in touch!</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto mt-10 px-4">
+        <div class="flex flex-col lg:flex-row gap-12">
+            <!-- Left Column - About Me Content -->
+            <div class="lg:w-2/3 relative">
+                <!-- Decorative RESUME text background -->
+                <div class="resume-title" style="top: 50px; left: -50px;">RESUME RESUME RESUME</div>
+                <div class="resume-title" style="top: 250px; left: -150px;">RESUME RESUME RESUME</div>
+                <div class="resume-title" style="top: 450px; left: -50px;">RESUME RESUME RESUME</div>
+
+                <section class="mb-6 relative z-10">
+                    <h2 class="text-4xl md:text-5xl font-display font-bold mb-3">About Me</h2>
+                    <h3 class="text-xl md:text-2xl text-amber-600 font-medium">Get to know me better</h3>
+                </section>
+
+                <!-- Bio Section -->
+                <section class="mb-10 relative z-10">
+                    <p class="text-lg leading-relaxed mb-8">
+                        Tôi là <span class="font-bold">Phuoc Long</span>, một coder tìm tòi những thứ mới mẻ từ thị trường lao động. Từ nền tảng tự học, tôi đã phát triển tư
+                        duy sáng tạo linh hoạt và khả năng thích ứng với xu hướng thiết kế đương đại.
+                    </p>
+                </section>
+
+                <!-- Education -->
+                <section class="mb-10">
+                    <h4 class="text-2xl font-bold mb-6 text-amber-600 font-display">Education</h4>
+                    <div class="border-l-4 border-amber-600 pl-6 space-y-6">
+                        <div class="relative pl-6">
+                            <!-- Icon ngôi sao 4 cạnh -->
+                            <span class="absolute left-0 top-1.5">
+                                <svg class="w-4 h-4 text-[#ff6d4d]" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 2L22 12L12 22L2 12L12 2Z" />
+                                </svg>
+                            </span>
+
+                            <!-- Grid 2 cột: thời gian + nội dung -->
+                            <div class="grid grid-cols-[auto,1fr] gap-x-6">
+                                <p class="text-xl font-bold">2023–2028</p>
+                                <div>
+                                    <p class="text-lg font-semibold">Computer Science & Engineering</p>
+                                    <p class="text-sm text-stone-700">VNUK University</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Next Steps -->
+                <section class="flex space-x-6 mt-8 relative z-10">
+                    <a href="#"
+                        class="px-6 py-2 bg-amber-600 text-white font-bold rounded-full hover:bg-amber-700 transition-colors">
+                        My projects ↓
+                    </a>
+                    <!-- <a href="#"
+                        class="px-6 py-2 border border-stone-900 font-bold rounded-full hover:bg-stone-100 transition-colors">
+                        Download Resume ↓
+                    </a> -->
+                </section>
+            </div>
+
+            <!-- Right Column - Skills -->
+            <div class="lg:w-1/3 lg:pt-20">
+                <div class="bg-white p-6 rounded-lg border border-stone-200 shadow-lg sticky top-8">
+                    <h4 class="text-2xl font-bold mb-6 text-amber-600 font-display">Languages</h4>
+
+                    <div class="space-y-6">
+                        <div>
+                            <h5 class="font-bold mb-2">HTML, CSS, Javascript</h5>
+                            <p class="text-stone-600">Figma</p>
+                        </div>
+
+                        <div>
+                            <h5 class="font-bold mb-2">Java</h5>
+
+                        </div>
+
+                        <div>
+                            <h5 class="font-bold mb-2">C++</h5>
+
+                        </div>
+
+                        <div>
+                            <h5 class="font-bold mb-2">Python</h5>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
